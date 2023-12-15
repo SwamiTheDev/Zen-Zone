@@ -23,6 +23,11 @@ body {
   --bottom-color: rgb(255 168 78);
 }
 
+.container {
+  margin: 1rem;
+  max-width: 400px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -220,4 +225,101 @@ footer {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+
+/* ----------Desktop view-------- */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    min-width: 900px;
+  }
+
+  .header-btn:hover {
+    background-color: var(--very-dark-color);
+    color: var(--accent-color);
+  }
+
+  .desktop-view {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-header {
+    width: 38rem;
+    top: -12rem;
+  }
+
+  .curved-line {
+    margin-left: 17rem;
+    width: 275px;
+  }
+
+  .mission-statement {
+    font-size: 72px;
+    letter-spacing: -1px;
+  }
+
+  .mission-btn {
+    border: none;
+  }
+
+  .mission-btn:hover {
+    background-image: linear-gradient(
+      to bottom right,
+      var(--top-color),
+      var(--middle-color),
+      var(--bottom-color)
+    );
+  }
+
+  .tablet-hero-img {
+    width: 20rem;
+  }
+  .stats {
+    flex-direction: column;
+    margin: 0 4rem;
+    justify-content: space-evenly;
+  }
+
+  .white-space {
+    height: 2rem;
+  }
+
+  .desktop-testimonial-2,
+  .testimonial-body,
+  .testimonial-name {
+    text-align: left;
+  }
+
+  .desktop-testimonial-2 {
+    height: 430px;
+    padding: 4rem 4rem 0 2rem;
+  }
+
+  .testimonial-body {
+    padding-left: 0;
+  }
+
+  .testimonial-content {
+    flex-direction: row;
+  }
+
+  .jeremy-img-container {
+    top: -1.25rem;
+    left: 5.5rem;
+    width: 17.5rem;
+  }
+
+  .blurred-bg {
+    width: 26rem;
+    padding: 3rem;
+    padding-left: 3rem;
+  }
+
+  .background {
+    width: 1248px;
+    height: 450px;
+    position: absolute;
+    top: 1100px;
+  }
 }
