@@ -81,3 +81,28 @@ span {
 .desktop-hero-img {
   display: none;
 }
+
+/* Stats section */
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 16rem;
+  margin: 3rem auto;
+}
+
+.bolded-stats {
+  font-size: 35px;
+}
+
+.stat-texts {
+  text-transform: uppercase;
+  color: var(--dark-color);
+  font-weight: 300;
+}
+.white-space {
+  height: 11rem;
+}
