@@ -1,0 +1,24 @@
+/* Theme colors */
+:root {
+  --very-dark-color: rgb(23 35 57);
+  --dark-color: rgb(73 86 109);
+  --neutral-color: rgb(243 237 231);
+  --accent-color: rgb(250 248 246);
+
+  /* Super-blend */
+  --top-color: rgb(160 96 255);
+  --middle-color: rgb(203 48 227);
+  --bottom-color: rgb(255 168 78);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  padding: 1rem;
+  border: 1px solid var(--very-dark-color);
+  background-color: white;
+  border-radius: 0.5rem;
+}
