@@ -22,3 +22,48 @@ button {
   background-color: white;
   border-radius: 0.5rem;
 }
+
+/* --------Main-------- */
+
+main {
+  margin-top: 3rem;
+}
+
+.mission-statement {
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  color: var(--very-dark-color);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.curved-line {
+  margin-left: 9.5rem;
+  width: 150px;
+}
+
+img.curve {
+  width: 100%;
+}
+
+span {
+  font-weight: 300;
+}
+.quote1 {
+  font-size: 20px;
+  line-height: 35px;
+  margin: 2rem auto;
+  font-weight: 300;
+  color: var(--dark-color);
+}
+
+.mission-btn {
+  color: var(--accent-color);
+  background-color: var(--very-dark-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
