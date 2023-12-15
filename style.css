@@ -314,6 +314,29 @@ footer {
     z-index: -1;
     background-color: var(--neutral-color);
   }
+  .nav-title {
+    background: -webkit-linear-gradient(
+      var(--bottom-color),
+      var(--middle-color) /* var(--bottom-color) */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-title {
+    background: -webkit-linear-gradient(
+      var(--bottom-color),
+      var(--middle-color) /* var(--bottom-color) */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 22px;
+    border-bottom: 3px solid black;
+  }
 }
 
 /* ----------Desktop view-------- */
@@ -410,5 +433,17 @@ footer {
     height: 450px;
     position: absolute;
     top: 1100px;
+  }
+  .nav-title {
+    background: -webkit-linear-gradient(
+      var(--bottom-color),
+      var(--middle-color) /* var(--bottom-color) */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    border-bottom: 5px solid black;
+    border-radius: 5px;
   }
 }
